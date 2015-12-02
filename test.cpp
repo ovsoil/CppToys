@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-/* const int BITSTEPWORD = sizeof(int) * 8; */
-/* const SHIFT = BITSTEPWORD == 32? 5 : 10; */
-/* const MASK = */ 
+const int BITSTEPWORD = sizeof(int) * 8;
+const SHIFT = BITSTEPWORD == 32? 5 : 10;
+const MASK = 
 
 #define SHIFT 5
 #define MASK 0x1F
